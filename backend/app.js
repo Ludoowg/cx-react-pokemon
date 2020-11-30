@@ -47,6 +47,6 @@ app.delete('/pokemons/:id', (req, res) => {
 //     // Supprime le pokémon
 //  })
 
-app.listen(4000, () => console.log('Server is listening to port 3000'))
+app.listen(4000, () => console.log('Server is listening to port 4000'))
 
 module.exports = app;
