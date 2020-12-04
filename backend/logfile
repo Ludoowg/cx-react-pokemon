@@ -26,3 +26,6 @@
 2020-11-30 19:59:49.292 CET [58947] FATAL:  role "panda" does not exist
 2020-11-30 20:01:07.587 CET [58998] FATAL:  database "pokemon" does not exist
 2020-11-30 20:02:10.423 CET [59039] FATAL:  database "pokemon" does not exist
+2020-12-02 14:06:52.053 CET [58782] LOG:  could not close temporary statistics file "pg_stat_tmp/db_0.tmp": No space left on device
+2020-12-02 14:06:52.202 CET [58782] LOG:  could not close temporary statistics file "pg_stat_tmp/global.tmp": No space left on device
+2020-12-02 14:07:03.454 CET [58781] LOG:  using stale statistics instead of current ones because stats collector is not responding

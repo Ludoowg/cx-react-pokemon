@@ -10,22 +10,20 @@ const knex = require('knex')({
   }
 })
 
-async function main() {
-  knex.schema.createTableIfNotExists("payment_paypal_status", function (table) {
+knex.schema.createTableIfNotExists("pokemons", function (table) {
   table.increments(); // integer id
-  // name
-  table.string('name');
-  //description
-  table.string('description');
-}).then(function () {
-      return knex("payment_paypal_status").insert([
-          {name: "A", description: "A"},
-          {name: "B", description: "BB"},
-          {name: "C", description: "CCC"},
-          {name: "D", description: "DDDD"}
-      ]);
+  table.string('numero');
+  table.jsonb('details');
+}).then(async  () => {
+      const pokemonsToInsert = pokemons.map(pokemon => {
+         return {
+           numero: pokemon.numero,
+           details: JSON.stringify(pokemon)
+         }
+      })
+
+
+      //pokemonToInsert = [{ numero: "001", details: JSON }] 
+      await knex("pokemons").insert(pokemonsToInsert);
   }
 )
-}
-
-main()
