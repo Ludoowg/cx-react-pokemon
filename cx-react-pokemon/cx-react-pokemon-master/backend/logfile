@@ -1,0 +1,31 @@
+2020-11-30 19:49:37.318 CET [58688] LOG:  starting PostgreSQL 13.1 on x86_64-apple-darwin18.7.0, compiled by Apple clang version 11.0.0 (clang-1100.0.33.17), 64-bit
+2020-11-30 19:49:37.323 CET [58688] LOG:  listening on IPv6 address "::1", port 5432
+2020-11-30 19:49:37.323 CET [58688] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2020-11-30 19:49:37.324 CET [58688] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2020-11-30 19:49:37.333 CET [58689] LOG:  database system was shut down at 2020-11-30 19:48:12 CET
+2020-11-30 19:49:37.341 CET [58688] LOG:  database system is ready to accept connections
+2020-11-30 19:49:50.518 CET [58705] FATAL:  role "postgres" does not exist
+2020-11-30 19:50:07.883 CET [58706] FATAL:  role "postgres" does not exist
+2020-11-30 19:50:17.437 CET [58708] FATAL:  role "postgres" does not exist
+2020-11-30 19:53:17.461 CET [58688] LOG:  could not open file "postmaster.pid": No such file or directory
+2020-11-30 19:53:17.462 CET [58688] LOG:  performing immediate shutdown because data directory lock file is invalid
+2020-11-30 19:53:17.462 CET [58688] LOG:  received immediate shutdown request
+2020-11-30 19:53:17.462 CET [58688] LOG:  could not open file "postmaster.pid": No such file or directory
+2020-11-30 19:53:17.462 CET [58693] WARNING:  terminating connection because of crash of another server process
+2020-11-30 19:53:17.462 CET [58693] DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2020-11-30 19:53:17.462 CET [58693] HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2020-11-30 19:53:17.463 CET [58694] LOG:  could not open temporary statistics file "pg_stat/global.tmp": No such file or directory
+2020-11-30 19:53:17.470 CET [58688] LOG:  database system is shut down
+2020-11-30 19:53:29.434 CET [58776] LOG:  starting PostgreSQL 13.1 on x86_64-apple-darwin18.7.0, compiled by Apple clang version 11.0.0 (clang-1100.0.33.17), 64-bit
+2020-11-30 19:53:29.448 CET [58776] LOG:  listening on IPv6 address "::1", port 5432
+2020-11-30 19:53:29.448 CET [58776] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2020-11-30 19:53:29.450 CET [58776] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2020-11-30 19:53:29.457 CET [58777] LOG:  database system was shut down at 2020-11-30 19:52:51 CET
+2020-11-30 19:53:29.468 CET [58776] LOG:  database system is ready to accept connections
+2020-11-30 19:53:37.002 CET [58797] FATAL:  role "postgres" does not exist
+2020-11-30 19:59:49.292 CET [58947] FATAL:  role "panda" does not exist
+2020-11-30 20:01:07.587 CET [58998] FATAL:  database "pokemon" does not exist
+2020-11-30 20:02:10.423 CET [59039] FATAL:  database "pokemon" does not exist
+2020-12-02 14:06:52.053 CET [58782] LOG:  could not close temporary statistics file "pg_stat_tmp/db_0.tmp": No space left on device
+2020-12-02 14:06:52.202 CET [58782] LOG:  could not close temporary statistics file "pg_stat_tmp/global.tmp": No space left on device
+2020-12-02 14:07:03.454 CET [58781] LOG:  using stale statistics instead of current ones because stats collector is not responding
