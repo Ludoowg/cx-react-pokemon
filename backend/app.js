@@ -56,17 +56,6 @@ app.delete('/pokemons/:id', async (req, res) => {
     }
 })
 
-// app.post('/pokemon',(req, res) => {
-//    // Créer des données sur le serveur -> BDD
-// })
-
-// app.update('/pokemon',(req, res) => {
-//    // Modifie un pokémon
-// })
-
-// app.delete('/pokemon',(req, res) => {
-//     // Supprime le pokémon
-//  })
 
 app.listen(4000, () => console.log('Server is listening to port 4000'))
 
